@@ -1,0 +1,68 @@
+Project Window open and close
+Command + 1
+Window Alt + 1
+Structure View Window open and close
+Command + 7
+Alt + 7
+Search for Actions (Shows the list of methods)
+Command + Shift + A
+Ctrl + shift + A
+
+Search for anything ( files – methods … )
+Shift + Shift (shift 2 times)
+
+Search for files
+Command + shift + OCtrl + shift + N
+
+Search for symbols
+Command + option + O
+Ctrl + shift + alt + N
+
+Go to declaration 
+Command + B OR Command + Click
+
+Find usages 
+Option + F7
+Find usages in file
+Command + F7
+Highlight usages in file
+Shift + Command + F7
+Show usages
+Option + Command + F7
+
+Go to the line
+Command + L
+
+Add bookmark
+Option + F3
+Favorite Window show hide
+Command + 2 
+Show all bookmarks
+Command + F3
+
+Surround the code with a tag
+Option + Command + J
+
+Change tabs to spaces
+Command + Shift + A
+Search for to space or vice versa to tabs
+
+Split and UnsplitCommand + Shift + A 
+
+WebStorm next occurrence
+Mac: Ctrl + G 
+Windows: Alt + J
+Cancel the current one and move to next occurrence
+Mac: Command + G 
+Windows: Ctrl + L
+
+Cycling between the occurrences
+Command + F
+Return 
+
+
+
+
+
+
+
