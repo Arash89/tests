@@ -1,2 +1,148 @@
-This is a readme file for you Arash
-And this is its new line
+9:20 PM
+
+Creating a new Key pair in Mac OS X or Linux (Link) (Git Help)
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+git is a distributed version control system
+That means everybody has their own copy of repository 
+Trunk it is the main line and branches are something new
+
+In finder cmd + shift + g shows addressbar 
+cmd + shift  + . shows the hidden files
+cmd + shift  + i shows the terminal title panel
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+push an existing repository from the command line
+git remote add origin https://github.com/Arash89/start-scratch.git
+git push -u origin master
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+1 - stash
+2 - git fetch upstream
+3 - git rebase -i upstream/BPU-5146 
+—> get my stash back and commit
+4 - git push -f origin featureBrachName
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+n – Interactively Manage Your Node.js Versions
+For installing the latest or stable version of the node it is good to install node it is best installing the 
+https://github.com/tj/n
+ npm install -g n
+
+n 4.8.3
+OR 
+n latest
+OR
+n stable
+
+Working with npm
+After switching Node.js versions using n, npm may not work properly. This should fix it (thanks @mikemoser!):
+curl -0 -L https://npmjs.com/install.sh | sudo sh
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Add remote upstream
+git remote add upstream git@github.intuit.com:SBG-Plugins/transactions-ui.git
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+A new git command 
+git push -f origin PAU-3130 --no-verify
+ 
+It helps you to push the changes on you branch without testing coverage limitation
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+n – Interactively Manage Your Node.js Versions 
+For installing the latest or stable version of the node it is good to install node it is best installing the  
+https://github.com/tj/n 
+npm install -g n 
+ 
+n 4.8.3 
+OR  
+n latest 
+OR 
+n stable 
+ 
+Working with npm 
+After switching Node.js versions using n, npm may not work properly. This should fix it (thanks @mikemoser!): 
+curl -0 -L https://npmjs.com/install.sh | sudo sh 
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+MVN
+https://github.com/creationix/nvm#important-notes
+ 
+nvm install 5.11.0
+nvm use 5.11.0
+# Install the version that you would like nvm install 6.1.0
+# Set 6.1.0 (or another version) as default nvm alias default 6.1.0
+ 
+# latest 
+nvm install --lts
+ 
+nvm use v6.9.5
+ 
+Cleaning the npm's cache 
+npm cache clean
+
+Where the Nodes located in mac
+/Users/t_souda/.nvm/versions/node/v8.11.3/bin/node
+/usr/local/bin/node
+ ---------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Getting list of stashes 
+$ git stash list 
+stash@{0}: WIP on master: 049d078 added the index file 
+stash@{1}: WIP on master: c264051 Revert "added file_size" 
+stash@{2}: WIP on master: 21d80a5 added number to log 
+$ git stash drop stash@{0} 
+Dropped stash@{0} (364e91f3f268f0900bc3ee613f9f733e82aaed43)
+ 
+$ git stash apply stash@{2} 
+$ git stash apply 2 // Just enter the index number in windows only works like this
+Save an stash with our message
+$ git stash save "My Message for the stash"
+ ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Git Squash
+$ git rebase -i HEAD~4
+Shift  + i
+Pick for earlier commit  and Squash for the others
+Esc 
+:wq
+Shift + i
+New message for the result commit
+Esc
+:wq
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+yarn
+
+yarn add package-name //  is like npm install --save package-name it save the package in dependencies 
+yarn add package-name --dev Or -D //  is like npm install --save-dev package-name it save the package in Devdependencies 
+yarn remove package-name
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+When you try to add a new folder to .gitignore file but it wouldn't be affect that folder for example in the middle you would like to add the dest folder to the .gitignore file and it doesn't affect.So run these commands
+git rm -r --cache folderName
+OR
+git rm -r --cache dest
+
+After the first commit it would be effected
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+The current branch feature-89458-address has no upstream branch.
+To push the current branch and set the remote as upstream, use
+ 
+    git push --set-upstream origin feature-branch-name    --set-upstream is like -u
+ ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+create a new repository on the command line
+echo "# redux-boilerplate" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Arash89/redux-boilerplate.git
+git push -u origin master
+…or push an existing repository from the command line
+git remote add origin https://github.com/Arash89/redux-boilerplate.git
+git push -u origin master
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Back from rest soft
+List of the logs like ls in Linux
+git reflog
+then let HEAD back on the propitiate comment 
+git reset HEAD@{1}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
